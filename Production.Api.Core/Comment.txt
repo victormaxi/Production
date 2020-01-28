@@ -1,0 +1,1 @@
+﻿This contains the {Interface, models, Viewmodels - which provides what is to be shown to the users}

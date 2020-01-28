@@ -1,0 +1,11 @@
+﻿The Api is in control of the controllers it is refrecened to Core and Domain
+Its Dependencies are 
+(
+bootstrap{4.1.3}
+Microsoft.AspnetCore.App
+Microsoft.VisualStudio.Web.CodeGeneration.Design
+Serilog (2.7.1)
+Serilog.Asp.Netcore
+Serilog.Extensions.Logging.File
+Serilog.Sink.MssqlServer
+)
