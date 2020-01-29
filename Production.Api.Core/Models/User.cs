@@ -10,7 +10,8 @@ namespace Production.Api.Core.Models
         public string LastName { get; set; }
         public string  UserName { get; set; }
         public string Email { get; set; }
-        public string Password { get; set; }
-        public string ConfrimPassword { get; set; }
+        public byte[] PasswordHash { get; set; }
+        public byte[] PassWordSalt { get; set; }
+        
     }
 }
